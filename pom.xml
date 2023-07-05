@@ -4,11 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.web3j.sample</groupId>
-    <artifactId>sample-project-maven</artifactId>
+    <groupId>com.vinayacademy.app</groupId>
+    <artifactId>my-maven-app</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
+         <sonar.host.url>http://34.125.172.251:9000/</sonar.host.url>
+         <sonar.login>squ_5e38d71a94691354a9472679d59400bfff1a6d5e</sonar.login>
         <web3j.version>3.6.0</web3j.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <web3j-maven-plugin.version>0.3.7</web3j-maven-plugin.version>
